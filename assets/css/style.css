@@ -89,12 +89,12 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -109,18 +109,18 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+	display: block;
 }
 
 /* Force scrollbar */
 html {
-    overflow-y: scroll;
+	overflow-y: scroll;
 }
 
 /* Align radios and text inputs with their label */
 
 input[type="radio"] {
-    vertical-align: text-bottom;
+	vertical-align: text-bottom;
 }
 
 /* Hand cursor on clickable input elements */
@@ -128,39 +128,39 @@ label,
 input[type="button"],
 input[type="submit"],
 button {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 strong {
-    font-weight: bold;
-    font-family: inherit;
-    font-size: inherit;
+	font-weight: bold;
+	font-family: inherit;
+	font-size: inherit;
 }
 
 em {
-    font-style: italic;
+	font-style: italic;
 }
 
 img {
-    width: 100%;
-    border: 0;
-    vertical-align: middle;
+	width: 100%;
+	border: 0;
+	vertical-align: middle;
 }
 
 sub,
 sup {
-    vertical-align: baseline;
-    position: relative;
-    font-size: 55%;
-    line-height: 0;
+	vertical-align: baseline;
+	position: relative;
+	font-size: 55%;
+	line-height: 0;
 }
 
 sup {
-    top: -0.7em;
+	top: -0.7em;
 }
 
 sub {
-    bottom: -0.25em;
+	bottom: -0.25em;
 }
 
 /* 1.2. Clear Fix
@@ -168,14 +168,39 @@ sub {
 
 .cf:before,
 .cf:after {
-    display: table;
-    content: " ";
+	display: table;
+	content: " ";
 }
 
 .cf:after {
-    clear: both;
+	clear: both;
 }
 
 .cf {
-    *zoom: 1;
+	*zoom: 1;
+}
+
+/*============================
+  For All
+=============================*/
+body {
+	box-sizing: border-box;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+/* For Wrapper */
+.wrapper {
+	max-width: 1536px;
+	margin: 0 auto;
+	width: 63.15%;
 }
