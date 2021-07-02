@@ -198,9 +198,87 @@ li {
 	list-style-type: none;
 }
 
+::before,
+::after {
+	font-family: FontAwesome;
+}
+
 /* For Wrapper */
 .wrapper {
 	max-width: 1536px;
 	margin: 0 auto;
 	width: 63.15%;
+}
+
+/*============================
+  Header section
+=============================*/
+.header {
+	background-color: #f6eddc;
+}
+
+.toggler,
+.hamburger {
+	display: none;
+}
+
+.header .wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu ul {
+	display: flex;
+	align-items: center;
+}
+
+.header h1 a {
+	color: #000;
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 25px 0;
+}
+
+.header .menu a:not(.searchbar) {
+	color: #000;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding-left: 20px;
+}
+
+.menu .searchbar {
+	padding: 10px;
+	padding-right: 100px;
+	border: 1px solid #e1dad3;
+	border-radius: 20px;
+	background-color: #fff;
+	font-size: 15px;
+	font-weight: 200;
+	color: #7e797f;
+	margin: 0 0 0 20px;
+	text-indent: 10px;
+}
+
+.searchbar::after {
+	position: relative;
+	content: '\f002';
+	font-size: 20px;
+	left: 50%;
+}
+
+.cart {
+	text-indent: -9999px;
+}
+
+.cart::before {
+	content: '\f07a';
+	text-indent: 0;
+	font-size: 20px;
+	color: #7e797f;
+	float: right;
+	font-size: 25px;
 }
