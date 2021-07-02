@@ -235,15 +235,16 @@ li {
 
 .header h1 a {
 	color: #000;
-	font-size: 25px;
+	font-size: 20px;
 	text-transform: uppercase;
+	font-weight: 600;
 	letter-spacing: 2px;
 	margin: 25px 0;
 }
 
 .header .menu a:not(.searchbar) {
 	color: #000;
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 2px;
@@ -256,7 +257,7 @@ li {
 	border: 1px solid #e1dad3;
 	border-radius: 20px;
 	background-color: #fff;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: 200;
 	color: #7e797f;
 	margin: 0 0 0 20px;
@@ -281,4 +282,68 @@ li {
 	color: #7e797f;
 	float: right;
 	font-size: 25px;
+}
+
+/* Pop-Up */
+.popup {
+	display: block;
+	text-align: center;
+	margin: 20px auto;
+	font-size: 15px;
+	color: #91b7b9;
+	font-weight: 600;
+}
+
+.popup::first-letter {
+	text-transform: uppercase;
+}
+
+/* Like-Love */
+.like {
+	background-color: #f4f9fc;
+}
+
+.like .wrapper {
+	padding: 40px 0 30px
+}
+
+.like h2 {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.like p {
+	font-size: 15px;
+	text-align: center;
+	width: 67.5%;
+	margin: 25px auto 30px;
+	line-height: 1.5;
+}
+
+.like p::first-letter {
+	text-transform: capitalize;
+}
+
+.like a {
+	box-sizing: border-box;
+	width: 200px;
+	padding: 20px;
+	text-transform: uppercase;
+	background-color: #f8a883;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.like ul {
+	display: flex;
+	justify-content: center;
+}
+
+.like ul li {
+	margin: 0 15px;
 }
