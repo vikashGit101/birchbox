@@ -507,3 +507,47 @@ li {
 	background-color: #f0f0ab;
 	margin-top: 60px;
 }
+
+/* Meet */
+.meet h3 {
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: capitalize;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.meet img {
+	margin: 50px auto 40px;
+}
+
+.meet a {
+	text-align: center;
+	width: 27%;
+	padding: 20px 0px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	color: black;
+	border: 1px solid black;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	white-space: nowrap;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.meet a:hover {
+	background-color: #000;
+	color: #fff;
+	transition: .5s ease-in;
+}
+
+.meet .wrapper::after {
+	content: "";
+	display: block;
+	height: 3px;
+	background-color: #f0f0ab;
+	margin-top: 60px;
+}
