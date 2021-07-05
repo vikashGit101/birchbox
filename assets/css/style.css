@@ -352,3 +352,78 @@ li {
 .like ul li {
 	margin: 0 15px;
 }
+
+/* Peek Monthly */
+.monthly .wrapper {
+	padding: 100px 0 0 0;
+}
+
+.monthly h3 {
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.monthly h3~span {
+	display: block;
+	font-size: 15px;
+	text-align: center;
+	width: 67.5%;
+	margin: 50px auto;
+}
+
+.monthly h3~span {
+	text-transform: capitalize;
+}
+
+.monthly img {
+	display: block;
+	border-radius: 10px;
+	width: 80%;
+	height: 30%;
+}
+
+.monthly ul {
+	display: flex;
+	justify-content: space-between;
+	flex-basis: 33.33%;
+	text-align: -webkit-center;
+}
+
+.monthly ul span {
+	display: block;
+	margin: 40px 0 60px 0;
+	text-transform: capitalize;
+}
+
+.monthly a {
+	text-align: center;
+	width: 27%;
+	padding: 20px 0px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	color: black;
+	border: 1px solid black;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	white-space: nowrap;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.monthly a:hover {
+	background-color: #000;
+	color: #fff;
+	transition: .5s ease-in;
+}
+
+.monthly .wrapper::after {
+	content: "";
+	display: block;
+	height: 3px;
+	background-color: #f0f0ab;
+	margin-top: 60px;
+}
