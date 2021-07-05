@@ -205,9 +205,9 @@ li {
 
 /* For Wrapper */
 .wrapper {
+	width: 63.15%;
 	max-width: 1536px;
 	margin: 0 auto;
-	width: 63.15%;
 }
 
 /*============================
@@ -224,8 +224,8 @@ li {
 
 .header .wrapper {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .menu ul {
@@ -234,21 +234,21 @@ li {
 }
 
 .header h1 a {
+	margin: 25px 0;
 	color: #000;
 	font-size: 20px;
-	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 2px;
-	margin: 25px 0;
+	text-transform: uppercase;
 }
 
 .header .menu a:not(.searchbar) {
+	padding-left: 30px;
 	color: #000;
 	font-size: 12px;
 	font-weight: 600;
-	text-transform: uppercase;
 	letter-spacing: 2px;
-	padding-left: 30px;
+	text-transform: uppercase;
 }
 
 .menu .searchbar {
@@ -256,11 +256,11 @@ li {
 	padding-right: 100px;
 	border: 1px solid #e1dad3;
 	border-radius: 20px;
+	margin: 0 0 0 20px;
 	background-color: #fff;
+	color: #7e797f;
 	font-size: 13px;
 	font-weight: 200;
-	color: #7e797f;
-	margin: 0 0 0 20px;
 	text-indent: 10px;
 }
 
@@ -276,22 +276,21 @@ li {
 }
 
 .cart::before {
-	content: '\f07a';
-	text-indent: 0;
-	font-size: 20px;
-	color: #7e797f;
 	float: right;
-	font-size: 25px;
+	content: '\f07a';
+	color: #7e797f;
+	font-size: 20px;
+	text-indent: 0;
 }
 
 /* Pop-Up */
 .popup {
-	display: block;
-	text-align: center;
 	margin: 20px auto;
-	font-size: 15px;
+	display: block;
 	color: #91b7b9;
+	font-size: 15px;
 	font-weight: 600;
+	text-align: center;
 }
 
 .popup::first-letter {
@@ -308,18 +307,18 @@ li {
 }
 
 .like h2 {
-	text-align: center;
 	font-size: 25px;
 	font-weight: 600;
+	text-align: center;
 	text-transform: capitalize;
 }
 
 .like p {
-	font-size: 15px;
-	text-align: center;
 	width: 67.5%;
 	margin: 25px auto 30px;
+	font-size: 15px;
 	line-height: 1.5;
+	text-align: center;
 }
 
 .like p::first-letter {
@@ -330,13 +329,13 @@ li {
 	box-sizing: border-box;
 	width: 200px;
 	padding: 20px;
-	text-transform: uppercase;
 	background-color: #f8a883;
 	color: #fff;
 	font-size: 12px;
 	font-weight: 600;
 	letter-spacing: 2px;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .like a:hover {
@@ -361,16 +360,16 @@ li {
 .monthly h3 {
 	font-size: 25px;
 	font-weight: 600;
-	text-transform: capitalize;
 	text-align: center;
+	text-transform: capitalize;
 }
 
 .monthly h3~span {
-	display: block;
-	font-size: 15px;
-	text-align: center;
 	width: 67.5%;
 	margin: 50px auto;
+	display: block;
+	text-align: center;
+	font-size: 15px;
 }
 
 .monthly h3~span {
@@ -378,10 +377,10 @@ li {
 }
 
 .monthly img {
-	display: block;
-	border-radius: 10px;
 	width: 80%;
 	height: 30%;
+	border-radius: 10px;
+	display: block;
 }
 
 .monthly ul {
@@ -392,26 +391,25 @@ li {
 }
 
 .monthly ul span {
-	display: block;
 	margin: 40px 0 60px 0;
+	display: block;
 	text-transform: capitalize;
 }
 
 .monthly a {
-	text-align: center;
+	box-sizing: border-box;
 	width: 27%;
 	padding: 20px 0px;
-	display: block;
-	text-align: center;
-	margin: 0 auto;
-	color: black;
 	border: 1px solid black;
-	text-transform: uppercase;
-	box-sizing: border-box;
-	white-space: nowrap;
+	margin: 0 auto;
+	display: block;
+	color: black;
 	font-size: 12px;
 	font-weight: 600;
 	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: nowrap;
 }
 
 .monthly a:hover {
@@ -421,28 +419,28 @@ li {
 }
 
 .monthly .wrapper::after {
-	content: "";
-	display: block;
 	height: 3px;
-	background-color: #f0f0ab;
 	margin-top: 60px;
+	display: block;
+	content: "";
+	background-color: #f0f0ab;
 }
 
 /* What-Works */
 .What-Works h3 {
+	margin-top: 60px;
 	font-size: 25px;
 	font-weight: 600;
-	text-transform: capitalize;
 	text-align: center;
-	margin-top: 60px;
+	text-transform: capitalize;
 }
 
 .What-Works h3~span {
+	width: 67.5%;
+	margin: 30px auto 50px;
 	display: block;
 	font-size: 15px;
 	text-align: center;
-	width: 67.5%;
-	margin: 30px auto 50px;
 }
 
 .What-Works h3~span::first-letter {
@@ -457,10 +455,10 @@ li {
 }
 
 .What-Works img {
-	display: block;
-	border-radius: 10px;
 	width: 80%;
 	height: 30%;
+	border-radius: 10px;
+	display: block;
 }
 
 .What-Works ul {
@@ -472,26 +470,25 @@ li {
 
 .What-Works ul span {
 	width: 90%;
-	display: block;
 	margin-bottom: 30px;
+	display: block;
 	text-transform: capitalize;
 }
 
 .What-Works a {
-	text-align: center;
+	box-sizing: border-box;
 	width: 27%;
 	padding: 20px 0px;
-	display: block;
-	text-align: center;
-	margin: 0 auto;
-	color: black;
 	border: 1px solid black;
-	text-transform: uppercase;
-	box-sizing: border-box;
-	white-space: nowrap;
+	margin: 0 auto;
+	display: block;
+	color: black;
 	font-size: 12px;
 	font-weight: 600;
 	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: nowrap;
 }
 
 .What-Works a:hover {
@@ -501,20 +498,20 @@ li {
 }
 
 .What-Works .wrapper::after {
-	content: "";
-	display: block;
 	height: 3px;
-	background-color: #f0f0ab;
 	margin-top: 60px;
+	display: block;
+	content: "";
+	background-color: #f0f0ab;
 }
 
 /* Meet */
 .meet h3 {
+	margin-top: 60px;
 	font-size: 25px;
 	font-weight: 600;
 	text-transform: capitalize;
 	text-align: center;
-	margin-top: 60px;
 }
 
 .meet img {
@@ -522,20 +519,19 @@ li {
 }
 
 .meet a {
-	text-align: center;
+	box-sizing: border-box;
 	width: 27%;
 	padding: 20px 0px;
-	display: block;
-	text-align: center;
-	margin: 0 auto;
-	color: black;
 	border: 1px solid black;
-	text-transform: uppercase;
-	box-sizing: border-box;
-	white-space: nowrap;
+	margin: 0 auto;
+	display: block;
+	color: black;
 	font-size: 12px;
 	font-weight: 600;
 	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: nowrap;
 }
 
 .meet a:hover {
@@ -545,20 +541,20 @@ li {
 }
 
 .meet .wrapper::after {
-	content: "";
-	display: block;
 	height: 3px;
-	background-color: #f0f0ab;
 	margin-top: 60px;
+	display: block;
+	content: "";
+	background-color: #f0f0ab;
 }
 
 /* Featured */
 .featured h5 {
+	margin-top: 60px;
 	font-size: 25px;
 	font-weight: 600;
 	text-transform: capitalize;
 	text-align: center;
-	margin-top: 60px;
 }
 
 .featured img {
@@ -567,28 +563,27 @@ li {
 
 .featured ul {
 	width: 90%;
+	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 	flex-flow: row wrap;
 	flex-basis: 50%;
-	margin: 0 auto;
 }
 
 .featured a {
-	text-align: center;
+	box-sizing: border-box;
 	width: 27%;
 	padding: 20px 0px;
-	display: block;
-	text-align: center;
-	margin: 0 auto;
-	color: black;
 	border: 1px solid black;
-	text-transform: uppercase;
-	box-sizing: border-box;
-	white-space: nowrap;
+	margin: 0 auto;
+	display: block;
+	color: black;
 	font-size: 12px;
 	font-weight: 600;
 	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
+	white-space: nowrap;
 }
 
 .featured a:hover {
@@ -598,11 +593,11 @@ li {
 }
 
 .featured .wrapper::after {
-	content: "";
-	display: block;
 	height: 3px;
-	background-color: #f0f0ab;
 	margin-top: 60px;
+	display: block;
+	content: "";
+	background-color: #f0f0ab;
 }
 
 /* footer */
@@ -637,21 +632,21 @@ footer {
 }
 
 footer .wrapper>h6 {
+	padding: 25px 0;
 	color: #000;
 	font-size: 20px;
-	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 2px;
-	padding: 25px 0;
+	text-transform: uppercase;
 }
 
 .top-left a {
+	margin-bottom: 30px;
 	display: block;
 	color: #000;
 	font-size: 15px;
 	font-weight: 600;
 	text-transform: capitalize;
-	margin-bottom: 30px;
 }
 
 .top-left a.ireland {
@@ -669,19 +664,19 @@ footer .wrapper>h6 {
 }
 
 .right label {
+	margin-bottom: 20px;
+	display: block;
 	font-size: 15px;
 	font-weight: 600;
 	text-transform: uppercase;
-	display: block;
-	margin-bottom: 20px;
 }
 
 .right input {
 	padding: 20px 10px;
-	display: inline-block;
-	text-transform: uppercase;
 	border: none;
 	margin-bottom: 45px;
+	display: inline-block;
+	text-transform: uppercase;
 }
 
 .right input[type="email"] {
@@ -689,19 +684,19 @@ footer .wrapper>h6 {
 }
 
 .right input[type="submit"] {
+	padding-right: 5%;
 	background-color: #4b4a4e;
 	color: #fff;
-	padding-right: 5%;
 }
 
 
 .right span {
 	width: max-content;
+	margin-bottom: 40px;
 	display: block;
 	background-color: #fbf65c;
 	font-size: 14px;
 	font-weight: 600;
-	margin-bottom: 40px;
 }
 
 .right span::first-letter {
@@ -709,24 +704,24 @@ footer .wrapper>h6 {
 }
 
 .right h6 {
+	margin-bottom: 15px;
+	display: block;
 	font-size: 15px;
 	font-weight: 600;
 	text-transform: uppercase;
-	display: block;
-	margin-bottom: 15px;
 }
 
 .store {
+	margin-right: 10px;
 	color: #000;
 	font-size: 14px;
-	text-transform: capitalize;
 	font-weight: 600;
-	margin-right: 10px;
+	text-transform: capitalize;
 }
 
 .store::before {
-	font-size: 20px;
 	padding-right: 10px;
+	font-size: 20px;
 }
 
 .ios::before {
@@ -749,20 +744,20 @@ footer .wrapper>h6 {
 }
 
 .bottom-footer a:not(.icon) {
-	text-transform: capitalize;
-	font-size: 15px;
-	font-weight: 600;
 	padding-right: 60px;
 	color: #000;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: capitalize;
 }
 
 
 .icon::before {
+	padding-left: 60px;
+	float: left;
 	content: "";
 	color: #000;
-	padding-left: 60px;
 	font-size: 22px;
-	float: left;
 	text-indent: 0;
 }
 
@@ -771,8 +766,8 @@ footer .wrapper>h6 {
 }
 
 .fb::before {
-	content: "\f082";
 	padding-left: 0;
+	content: "\f082";
 }
 
 .tweet::before {
