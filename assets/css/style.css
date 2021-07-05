@@ -427,3 +427,83 @@ li {
 	background-color: #f0f0ab;
 	margin-top: 60px;
 }
+
+/* What-Works */
+.What-Works h3 {
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: capitalize;
+	text-align: center;
+	margin-top: 60px;
+}
+
+.What-Works h3~span {
+	display: block;
+	font-size: 15px;
+	text-align: center;
+	width: 67.5%;
+	margin: 30px auto 50px;
+}
+
+.What-Works h3~span::first-letter {
+	text-transform: capitalize;
+}
+
+.What-Works h4 {
+	padding: 30px 0;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.What-Works img {
+	display: block;
+	border-radius: 10px;
+	width: 80%;
+	height: 30%;
+}
+
+.What-Works ul {
+	display: flex;
+	justify-content: space-between;
+	flex-basis: 33.33%;
+	text-align: -webkit-center;
+}
+
+.What-Works ul span {
+	width: 90%;
+	display: block;
+	margin-bottom: 30px;
+	text-transform: capitalize;
+}
+
+.What-Works a {
+	text-align: center;
+	width: 27%;
+	padding: 20px 0px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	color: black;
+	border: 1px solid black;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	white-space: nowrap;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.What-Works a:hover {
+	background-color: #000;
+	color: #fff;
+	transition: .5s ease-in;
+}
+
+.What-Works .wrapper::after {
+	content: "";
+	display: block;
+	height: 3px;
+	background-color: #f0f0ab;
+	margin-top: 60px;
+}
