@@ -604,3 +604,193 @@ li {
 	background-color: #f0f0ab;
 	margin-top: 60px;
 }
+
+/* footer */
+footer .wrapper {
+	position: relative;
+}
+
+footer {
+	margin-top: 60px;
+	background-color: #f6eddc;
+}
+
+.footer-top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-top .left,
+.footer-top .right {
+	display: flex;
+	flex-basis: 50%;
+	flex-flow: column wrap;
+}
+
+.top-left li {
+	width: 100%;
+}
+
+.top-left {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .wrapper>h6 {
+	color: #000;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding: 25px 0;
+}
+
+.top-left a {
+	display: block;
+	color: #000;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
+
+.top-left a.ireland {
+	display: flex;
+	align-items: center;
+}
+
+.top-left .ireland::before {
+	content: url("https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/24/Ireland-Flag-icon.png");
+	padding-right: 10px;
+}
+
+.right ul {
+	margin-left: 30px;
+}
+
+.right label {
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.right input {
+	padding: 20px 10px;
+	display: inline-block;
+	text-transform: uppercase;
+	border: none;
+	margin-bottom: 45px;
+}
+
+.right input[type="email"] {
+	padding-right: 20%;
+}
+
+.right input[type="submit"] {
+	background-color: #4b4a4e;
+	color: #fff;
+	padding-right: 5%;
+}
+
+
+.right span {
+	width: max-content;
+	display: block;
+	background-color: #fbf65c;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+
+.right span::first-letter {
+	text-transform: uppercase;
+}
+
+.right h6 {
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 15px;
+}
+
+.store {
+	color: #000;
+	font-size: 14px;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin-right: 10px;
+}
+
+.store::before {
+	font-size: 20px;
+	padding-right: 10px;
+}
+
+.ios::before {
+	content: "\f179";
+}
+
+.android::before {
+	content: "\f17b";
+}
+
+.bottom-footer {
+	padding: 35px 0;
+}
+
+.bottom-footer ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.bottom-footer a:not(.icon) {
+	text-transform: capitalize;
+	font-size: 15px;
+	font-weight: 600;
+	padding-right: 60px;
+	color: #000;
+}
+
+
+.icon::before {
+	content: "";
+	color: #000;
+	padding-left: 60px;
+	font-size: 22px;
+	float: left;
+	text-indent: 0;
+}
+
+.bottom-footer a.copyright {
+	padding-right: 20px;
+}
+
+.fb::before {
+	content: "\f082";
+	padding-left: 0;
+}
+
+.tweet::before {
+	content: "\f099";
+}
+
+.pin::before {
+	content: "\f0d2";
+}
+
+.utube::before {
+	content: "\f167";
+}
+
+.insta::before {
+	content: "\f16d";
+}
+
+.icon {
+	text-indent: -9999px;
+}
