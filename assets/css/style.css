@@ -251,6 +251,11 @@ li {
 	text-transform: uppercase;
 }
 
+.menu a:not(.searchbar):hover {
+	color: #f8a883;
+	transition: .3s ease-in-out;
+}
+
 .menu .searchbar {
 	padding: 10px;
 	padding-right: 100px;
@@ -649,6 +654,11 @@ footer .wrapper>h6 {
 	text-transform: capitalize;
 }
 
+.top-left a:hover {
+	color: #f8a883;
+	transition: .3s ease-in-out;
+}
+
 .top-left a.ireland {
 	display: flex;
 	align-items: center;
@@ -699,6 +709,12 @@ footer .wrapper>h6 {
 	font-weight: 600;
 }
 
+.right span:hover {
+	border-radius: 10px;
+	background-color: #f8a883;
+	transition: .3s ease-in-out;
+}
+
 .right span::first-letter {
 	text-transform: uppercase;
 }
@@ -717,6 +733,11 @@ footer .wrapper>h6 {
 	font-size: 14px;
 	font-weight: 600;
 	text-transform: capitalize;
+}
+
+.store:hover {
+	color: #ff8147;
+	transition: .3s ease-in-out;
 }
 
 .store::before {
@@ -751,6 +772,11 @@ footer .wrapper>h6 {
 	text-transform: capitalize;
 }
 
+.bottom-footer a:hover {
+	color: #ff8147;
+	transition: .3s ease-in-out;
+}
+
 .icon::before {
 	padding-left: 60px;
 	float: left;
@@ -758,6 +784,11 @@ footer .wrapper>h6 {
 	color: #000;
 	font-size: 22px;
 	text-indent: 0;
+}
+
+.icon::before:hover {
+	color: #ff8147;
+	transition: .3s ease-in-out;
 }
 
 .bottom-footer a.copyright {
@@ -1027,8 +1058,8 @@ footer .wrapper>h6 {
 	}
 
 	.menu-wrap .menu a:hover {
-		color: #fed929;
-		transition: transform 0.5s ease-in-out;
+		color: #f8a883;
+		transition: 0.5s ease-in-out;
 	}
 
 	/* hamburger line X */
